@@ -9,7 +9,9 @@ pipeline {
     }
     stage ('Build') {
       steps {
-        python3 'Hellowrld.py'
+        sh ...
+          ${PYTHON} 'Hellowrld.py'
+        ...
       }
     }
   }
