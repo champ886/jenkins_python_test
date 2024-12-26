@@ -4,7 +4,7 @@ pipeline {
   stages { 
     stage('Checkout') {
       steps {
-        https://github.com/champ886/jenkins_python_test.git        
+        git branch: 'main', url: 'https://github.com/champ886/jenkins_python_test.git''
             }
     stage ('Build') {
       steps {
