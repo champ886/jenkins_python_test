@@ -10,7 +10,7 @@ pipeline {
     stage ('Build') {
       steps {
         sh 'chmod 755 Hellowrld.py'
-         sh( "${PYTHON} Hellowrld.py" ) 
+         sh( "Hellowrld.py" ) 
         
       }
     }
