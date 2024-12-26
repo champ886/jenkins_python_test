@@ -10,7 +10,7 @@ pipeline {
     stage ('Build') {
       steps {
         sh ...
-          ${PYTHON} 'Hellowrld.py'
+          ${PYTHON} Hellowrld.py
         ...
       }
     }
